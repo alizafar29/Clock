@@ -1,0 +1,141 @@
+body{
+    background: black !important;
+}
+.body1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'EB Garamond', serif;
+}
+.clock{
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px white;
+    
+
+}
+
+.number h1{
+    font-size: 3vw;
+    position: absolute;
+    color: white;
+}
+
+.one{
+    top: 6%;
+    left: 71%;
+}
+
+.two{
+    top: 22%;
+    left: 87%;
+}
+
+.three{
+    left: 93%;
+    top: 45%;
+}
+
+.four{
+    top: 66%;
+    left: 88%;
+}
+
+.five{
+    top: 85%;
+    left: 70%;
+}
+
+.six{
+    left: 47%;
+    top: 91%;
+}
+
+.seven{
+    top: 85%;
+    left: 25%;
+}
+
+.eight{
+    top: 68%;
+    left: 8%;
+}
+
+.nine{
+    left: 2%;
+    top: 45%;
+}
+
+.ten{
+    top: 22%;
+    left: 8%;
+}
+
+.e11{
+    top: 7%;
+    left: 23%;
+}
+
+.t12{
+    top: 0%;
+    left: 45%;
+}
+
+#digital{
+    top: 70%;
+    left: 34%;
+}
+
+.circleCenter{
+    height: 2vw;
+    width: 2vw;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+}
+
+#Sec{
+    height: 15vw;
+    width: .1vw;
+    background-color: red ;
+    left: 49.5%;
+    top: 12%;
+    border-radius: 5px;
+
+}
+
+#Min{
+    height: 10vw;
+    width: .5vw;
+    background-color: white;
+    left: 49.07%;
+    top: 24%;
+    border-radius: 5px;
+
+
+}
+
+#Hours{
+    height: 8vw;
+    width: 1vw;
+    background-color: white;
+    left: 48.5%;
+    top: 29%;
+    border-radius: 5px;
+
+    
+}
+.pos{
+    position: absolute;
+    transform-origin: bottom;
+    transform: rotate(180deg);
+    z-index: -1;
+
+}
